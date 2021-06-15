@@ -1,0 +1,25 @@
+$(".changebtn1").click(function() {console.log
+("change btn 1 clicked");
+$(".box1").addClass("newbox1");
+});
+
+
+$(".changebtn2").click(function() {console.log
+    ("change btn 2 clicked");
+    $(".box2").css({"background":"redd","border":"2px solid blue"});
+
+});
+
+    $(".changebtn3").click(function() {console.log
+        ("change btn 3 clicked");
+        
+    });
+
+
+        $(".changebtn4").click(function() {console.log
+            ("change all clicked");
+            $(".box1").addClass("newbox1");
+            });
+
+           
+            
